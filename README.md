@@ -46,7 +46,7 @@ command:
 
 ```shell
 # initialize my-workspace for the example-application (main branch)
-west init -m https://github.com/zephyrproject-rtos/example-application --mr main my-workspace
+west init -m https://github.com/MrMarteng/zephyr_esp32-spics_bug.git --mr main my-workspace
 # update Zephyr modules
 cd my-workspace
 west update
